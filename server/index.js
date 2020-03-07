@@ -1,13 +1,13 @@
 const express = require('express');
 const morgan = require('morgan');
-const coors = require('coors');
+const cors = require('cors');
 const path = require('path');
 
 const app = express();
 const port = 3001;
 
 app.use(morgan('dev'));
-app.use(coors());
+app.use(cors());
 
 app.use(express.json());
 app.use(express.urlencoded());
