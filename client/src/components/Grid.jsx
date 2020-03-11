@@ -17,7 +17,7 @@ export default class Grid extends React.Component {
             return (
               <div>
                 {
-                  row.map(cell => <span style={{color: 'blue'}}> {cell} </span>)
+                  row.map(cell => <span className = "cell"> {/*cell*/} </span>)
                 }
               </div>
             )

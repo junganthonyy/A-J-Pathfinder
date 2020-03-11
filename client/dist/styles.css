@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.row {
+  display: flex;
+  
+}
+
+.cell {
+  border: 1px solid black;
+  /* box-sizing: border-box; */
+  width: 20px;
+  height: 20px;
+  /* display: inherit; */
+}
+

@@ -19,6 +19,6 @@ import Grid from './Grid.jsx';
 export default function App(){
   return (
     // <div>This is our app!</div>
-    <Grid></Grid>
+    <Grid className="grid"></Grid>
   )
 };
